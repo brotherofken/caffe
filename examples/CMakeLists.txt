@@ -1,4 +1,5 @@
 file(GLOB_RECURSE examples_srcs "${PROJECT_SOURCE_DIR}/examples/*.cpp")
+set (CMAKE_CXX_STANDARD 11)
 
 foreach(source_file ${examples_srcs})
   # get file name
